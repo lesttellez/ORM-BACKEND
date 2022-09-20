@@ -1,29 +1,28 @@
 {
-    "name": "ch13w13",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js",
-      "watch": "nodemon server.js",
-      "seed": "node seeds/index.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/lesttellez/ch13w13.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-      "nodemon": "^2.0.3"
-    },
-    "dependencies": {
-      "dotenv": "^8.2.0",
-      "express": "^4.17.1",
-      "mysql2": "^2.1.0",
-      "sequelize": "^5.21.7",
-      "nodemon":"2.0.19"
-    }
+  "name": "ch13w13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesttellez/ch13w13.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "5.22.5"
   }
+}
